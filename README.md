@@ -1,6 +1,6 @@
 <div id="intro" align="center">
 
-# webbidings
+# ![image](./assets/webbidings-tiny196.png) <br> webbidings
 ## The best aesthetic for your Windows gear~.
 Webbidings is a pretty, automated and full fledged
 theme for Windows, providing a vibrant color scheme
