@@ -1,6 +1,6 @@
 <div id="intro" align="center">
 
-## ![image](./../assets/webbidings-tiny40.png) webbidings
+## ![image](../../assets/webbidings-tiny40.png) <br> webbidings
 ### Credits
 
 | Wallpaper | Original name | Author | Source | License | File |
