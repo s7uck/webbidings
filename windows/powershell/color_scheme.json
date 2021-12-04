@@ -1,0 +1,23 @@
+{
+    "background": "#080601",
+    "black": "#0C0C0C",
+    "blue": "#047DCC",
+    "brightBlack": "#767676",
+    "brightBlue": "#67BDF0",
+    "brightCyan": "#FFC3D6",
+    "brightGreen": "#178444",
+    "brightPurple": "#A36FA0",
+    "brightRed": "#FA776D",
+    "brightWhite": "#F2F2F2",
+    "brightYellow": "#DDA124",
+    "cursorColor": "#FFC2DD",
+    "cyan": "#3A96DD",
+    "foreground": "#FFC2DD",
+    "green": "#02B756",
+    "name": "Webbidings",
+    "purple": "#7085B2",
+    "red": "#F82F1D",
+    "selectionBackground": "#FFC2DD",
+    "white": "#CCCCCC",
+    "yellow": "#FFD70E"
+}
