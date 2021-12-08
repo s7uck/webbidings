@@ -8,8 +8,6 @@
 
 </h3>
 
-## The best aesthetic for your Windows gear~.
-
 | Dark | Light |
 | ---- | ----- |
 | ![image](./assets/screenshots/example-dark-windows.png) | ![image](./assets/screenshots/example-light-windows.png) |
