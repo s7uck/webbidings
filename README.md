@@ -12,10 +12,9 @@
 | ---- | ----- |
 | ![image](./assets/screenshots/example-dark-windows.png) | ![image](./assets/screenshots/example-light-windows.png) |
 
-<h3>Webbidings is a pretty, automated and full fledged theme for Windows, providing
-a vibrant color scheme and a powerful CLI to adjust theme settings based on the
-world around you.</h3>
+<h3>Webbidings is a soft and vibrant color scheme inspired by ducks, space and
+ducks in space.</h3>
 
-This theme was inspired by Ducktales 2017, it's a great show, you should watch it ;)
+Nevermind what was in this readme before, i'm not doing that
 
 </div>
