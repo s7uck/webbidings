@@ -1,0 +1,32 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR __fish_initialized:3100
+SETUVAR fish_color_autosuggestion:767676
+SETUVAR fish_color_cancel:\x2dr
+SETUVAR fish_color_command:7085B2
+SETUVAR fish_color_comment:990000
+SETUVAR fish_color_cwd:FFD70E
+SETUVAR fish_color_cwd_root:DDA124
+SETUVAR fish_color_end:767676
+SETUVAR fish_color_error:F82F1D
+SETUVAR fish_color_escape:FFC3D6
+SETUVAR fish_color_history_current:67BDF0
+SETUVAR fish_color_host:FFD70E
+SETUVAR fish_color_host_remote:DDA124
+SETUVAR fish_color_match:normal
+SETUVAR fish_color_normal:FFC3D6
+SETUVAR fish_color_operator:67BDF0
+SETUVAR fish_color_param:767676
+SETUVAR fish_color_quote:02B756
+SETUVAR fish_color_redirection:normal
+SETUVAR fish_color_search_match:A36FA0
+SETUVAR fish_color_selection:FFC2DD
+SETUVAR fish_color_status:normal
+SETUVAR fish_color_user:7085B2
+SETUVAR fish_color_valid_path:\x2d\x2dunderline
+SETUVAR fish_greeting:Welcome\x20to\x20fish\x2c\x20the\x20friendly\x20interactive\x20shell
+SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_pager_color_completion:\x1d
+SETUVAR fish_pager_color_description:B3A06D\x1eyellow
+SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
+SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
