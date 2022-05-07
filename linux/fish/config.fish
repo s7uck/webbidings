@@ -58,7 +58,7 @@ function confish
     if $argv
         $user = $argv
     end
-    vi $user/.config/fish/config.fish
+    return $user/.config/fish/config.fish
 end
 
 set keep_history false
