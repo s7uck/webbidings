@@ -54,9 +54,9 @@ end
 
 # opens this file
 function confish
-    $user = "~"
+    set user "~"
     if $argv
-        $user = $argv
+        set user $argv
     end
     return $user/.config/fish/config.fish
 end
