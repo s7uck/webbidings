@@ -11,19 +11,6 @@ function drv
     cd /mnt/$argv
 end
 
-function windows
-    drv c
-end
-function apps
-    drv a
-end
-function files
-    drv q
-end
-function movies
-    drv y
-end
-
 set autosync false # /mnt/q/Proj/
 function autosync
     for repo in $autosync/*/
@@ -36,13 +23,15 @@ if $autosync
     autosync
 end
 
-set moviesync "/mnt/y/∞ IQ"
+set moviesync false "/mnt/y/∞ IQ"
 function moviesync
-    for playlist in $moviesync
-        set playlistName (string split -r -m1 / $playlist)[2]
-        if test $playlist/.metaData.db
-            cd $playlist/..
-            sync-dl sync -s "$playlistName"
+    if $moviesync
+        for playlist in $moviesync
+            set playlistName (string split -r -m1 / $playlist)[2]
+            if test $playlist/.metaData.db
+                cd $playlist/..
+                sync-dl sync -s "$playlistName"
+            end
         end
     end
 end
@@ -61,6 +50,15 @@ echo ''
 # (fap=Fish Activity Prune)
 function fap
     builtin history clear
+end
+
+# opens this file
+function confish
+    $user = "~"
+    if $argv
+        $user = $argv
+    end
+    vi $user/.config/fish/config.fish
 end
 
 set keep_history false
